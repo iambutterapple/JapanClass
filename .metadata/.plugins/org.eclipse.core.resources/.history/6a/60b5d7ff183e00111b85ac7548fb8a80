@@ -1,0 +1,22 @@
+package com.classex;
+
+public class OverloadingEx02 {
+
+	public void getLength(int n) {
+		
+	}
+	
+	public void getLength(int n, int m) {
+		
+	}
+	
+	public void getLength(float n) {
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.atm;
+
+import java.io.*;
+public class Bank {
+
+	public static void main(String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
+		
+		
+	}
+
+}

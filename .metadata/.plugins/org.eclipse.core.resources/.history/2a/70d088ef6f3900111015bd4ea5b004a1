@@ -1,0 +1,14 @@
+package com.arrayex;
+
+/*
+ * 	문제) 배열을 활용하여 로또번호 생성기를 구현하시오.
+ */
+
+public class LottoEx {
+
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

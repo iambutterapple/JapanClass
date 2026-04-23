@@ -1,0 +1,15 @@
+package com.arraytwoex;
+
+import java.io.*;
+public class ArrayEx10_1 {
+
+	public static void main(String[] args) throws IOException{
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
+		String[] subname = {"국어", "영어", "수학"};
+		int[][] sub = new int[3][subname.length + 2];
+		// 0: 국어, 1: 영어, 2: 수학
+		
+	}
+
+}

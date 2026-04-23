@@ -1,0 +1,6 @@
+package com.classex;
+
+public class Circle {
+	// 필드 선언
+	int radius;
+}

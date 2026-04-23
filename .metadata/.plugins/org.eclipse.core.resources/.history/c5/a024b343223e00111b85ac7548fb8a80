@@ -1,0 +1,15 @@
+package com.classex;
+
+/*
+ * 	this 와 this() 의 차이
+ * 
+ */
+
+public class ThisEx01 {
+
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

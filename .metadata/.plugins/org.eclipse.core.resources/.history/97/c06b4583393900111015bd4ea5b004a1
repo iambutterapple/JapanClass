@@ -1,0 +1,17 @@
+package com.whileex;
+
+/*
+ * 	문제)	콜라, 사이다, 마운틴, 초코송이, 에이스, 웨하스가 나오는 자판기 프로그램을 작성하시오.
+ * 			단, while문을 활용하시오.
+ * 			상품을 선택한다.
+ * 			
+ */
+
+public class WhileEx06 {
+
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

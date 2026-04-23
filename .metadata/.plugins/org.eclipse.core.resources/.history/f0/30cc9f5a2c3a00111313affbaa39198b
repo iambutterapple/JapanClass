@@ -1,0 +1,14 @@
+package com.arraytwoex;
+
+/*
+ * 	문제)	2차원 배열에 학년별 1, 2학기 성적을 저장하고
+ */
+
+public class ArrayEx08 {
+
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

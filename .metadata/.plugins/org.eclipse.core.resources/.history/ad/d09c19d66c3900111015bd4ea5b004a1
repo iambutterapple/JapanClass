@@ -1,0 +1,14 @@
+package com.arrayex;
+
+/*
+ *	문제)	배열에  	
+ */
+
+public class ArrayEx09 {
+
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

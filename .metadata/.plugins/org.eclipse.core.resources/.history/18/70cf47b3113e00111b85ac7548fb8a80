@@ -1,0 +1,18 @@
+package com.classex;
+
+/*
+ * 	call by value
+ */
+
+public class ValueParameter {
+	
+	public int increase(int n) {
+		n++;
+		return n;
+	}
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

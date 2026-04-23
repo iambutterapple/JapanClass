@@ -1,0 +1,15 @@
+package com.arraytwoex;
+
+/*
+ * 	
+ */
+
+public class ArrayEx02 {
+
+	public static void main(String[] args) {
+		
+		// 2차원 배열 선언 및 초기화
+		int[][] arr = {{}, {}};
+	}
+
+}

@@ -1,0 +1,19 @@
+package com.classex;
+
+/*
+ * 	call by value(값에 의한 호출)
+ * 		자바의 기본 자료형(8가지)
+ */
+
+public class ValueParameter {
+	
+	public int increase(int n) {
+		n++;
+		return n;
+	}
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+package com.arrayex;
+
+/*
+ * 	문제)	최대값과 최소값 구하기
+ * 			79, 88, 91, 33, 100, 55, 95
+ */
+
+public class ArratEx08 {
+
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

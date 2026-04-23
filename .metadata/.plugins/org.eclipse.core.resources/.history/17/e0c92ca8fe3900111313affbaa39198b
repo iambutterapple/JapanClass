@@ -1,0 +1,16 @@
+package com.arraytwoex;
+
+/*
+ * 	
+ */
+
+public class ArrayEx02 {
+
+	public static void main(String[] args) {
+		
+		// 2차원 배열 선언 및 초기화
+		int[][] arr = {{100, 200, 300}, // 첫번째 행을 의미하며 행을 구분할 때는 ,로 한다.
+							{400, 500, 600}};
+	}
+
+}

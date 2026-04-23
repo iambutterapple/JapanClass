@@ -1,0 +1,18 @@
+package com.atm;
+
+import java.io.*;
+import java.nio.Buffer;
+public class Bank {
+
+	public static void main(String[] args) {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
+		Account na = new Account("계정");
+		
+		String strWork;
+		
+		do {
+			System.out.println("\n\n어떤 업무를 보시겠습니까?");
+		} while (condition);
+	}
+}

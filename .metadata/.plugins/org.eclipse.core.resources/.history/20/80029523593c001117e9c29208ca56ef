@@ -1,0 +1,17 @@
+package com.arraytwoex;
+
+/*
+ *	가변 배열, 레기드 배열, 비정형 배열 
+ *	2차원 이상에 배열을 생성할 때 행의 길이는 고정이지만 열의 길이는 다시 조절 가능하다.
+ *	고정형태가 아닌 보다 유동적인 가변 배열을 구성하게 된다.
+ *	
+ */
+
+public class ArrayEx11 {
+
+	public static void main(String[] args) {
+		
+		
+	}
+
+}
