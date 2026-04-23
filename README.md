@@ -8,7 +8,7 @@
 
 職務 Javaプログラミング言語 160時間
 
-직무	Javascript / Web Programming	24時間
+職務	Javascript / Web Programming	24時間
 
 職務 SPRING / Webプロジェクト 80時間
 
