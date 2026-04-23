@@ -1,0 +1,9 @@
+package com.atm;
+
+public class Account { // 계좌
+	
+	// 소유주(계좌주)
+	private 
+	// 잔액(금액)
+
+}

@@ -1,0 +1,14 @@
+package com.arrayex;
+
+/*
+ * 	문제)	
+ */
+
+public class ArrayEx02 {
+
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

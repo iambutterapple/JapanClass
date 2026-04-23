@@ -1,0 +1,13 @@
+package com.classex;
+
+public class TvExam {
+
+	public static void main(String[] args) {
+		// Tv 객체 생성
+		Tv t; // Tv 인스턴스를 참조하기 위한 참조변수 선언
+		t = new Tv(); // Tv 인스턴스를 생성했다.
+		t.channel = 7;
+		
+	}
+
+}

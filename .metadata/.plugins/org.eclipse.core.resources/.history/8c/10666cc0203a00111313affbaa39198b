@@ -1,0 +1,16 @@
+package com.arraytwoex;
+
+import java.io.*;
+public class NewEx01 {
+
+	public static void main(String[] args) throws IOException{
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
+		int a = 0;
+		
+		System.out.print("입력: ");
+		a = System.in.read() - 48;
+		System.out.println((char)a);
+	}
+
+}

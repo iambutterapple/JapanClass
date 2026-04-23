@@ -1,0 +1,13 @@
+package com.arraythreeex;
+
+// for문을 이용한 배열 복사
+
+public class ArrayCopyEx01 {
+
+	public static void main(String[] args) {
+		
+		int[] arr = new int[5];
+		
+	}
+
+}

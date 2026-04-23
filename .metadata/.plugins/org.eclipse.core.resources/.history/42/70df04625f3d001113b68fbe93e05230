@@ -1,0 +1,21 @@
+package com.classexam;
+
+/*
+ * 	문제)	계산 프로그램에서 +, -, *, /, % 연산을 메소드로 작성하여 실행되는 프로그램을 구현하시오.
+ * 			
+ * 			출력결과
+ * 			첫번째 정수: 100
+ * 			연산자: /
+ * 			두번째 정수: 20
+ * 			
+ * 			100 / 20 = 5
+ */
+
+public class Exam05 {
+
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

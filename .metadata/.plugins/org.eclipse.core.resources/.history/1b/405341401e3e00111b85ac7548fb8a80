@@ -1,0 +1,14 @@
+package com.classex;
+
+class MyClass {
+	
+}
+
+public class MyClassEx {
+
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

@@ -1,0 +1,36 @@
+package com.classexam;
+
+/*
+ * 	문제)	계산 프로그램에서 +, -, *, /, % 연산을 메소드로 작성하여 실행되는 프로그램을 구현하시오.
+ * 			
+ * 			출력결과
+ * 			첫번째 정수: 100
+ * 			연산자: /
+ * 			두번째 정수: 20
+ * 			
+ * 			100 / 20 = 5
+ */
+import java.io.*;
+public class Exam05 {
+
+	public static int plus(int x, int y) {
+		return x + y;
+	}
+	public static int min(int x, int y) {
+		return x - y;
+	}
+	public static int mul(int x, int y) {
+		return x * y;
+	}
+	public static int div(int x, int y) {
+		return x / y;
+	}
+	public static int per(int x, int y) {
+		return x % y;
+	}
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

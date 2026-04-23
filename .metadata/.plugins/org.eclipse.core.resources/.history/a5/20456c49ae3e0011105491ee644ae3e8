@@ -1,0 +1,18 @@
+package com.atm;
+
+public class Account { // 계좌
+	
+	// 소유주(계좌주)
+	private String name;
+	// 잔액(금액)
+	private long balance;
+	
+	public Account() { // 기본 생성자
+		
+	}
+	
+	public Account(String name) { // 생성자 오버로딩
+		this.name = name;
+	}
+	
+}

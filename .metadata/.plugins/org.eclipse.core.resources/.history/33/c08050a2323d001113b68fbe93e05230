@@ -1,0 +1,13 @@
+package com.classex;
+
+public class Circle {
+	// 필드 선언
+	int radius;
+	String name;
+	
+	public Circle() { // 기본 생성자
+		
+	}
+	
+	// 원의 크기를 계산하는 메소드
+}

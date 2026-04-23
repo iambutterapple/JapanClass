@@ -1,0 +1,23 @@
+package com.classex;
+
+/*
+ * 	문제)	메소드의 오버로딩을 활용하여
+ * 			사각형의 넓이와 삼각형의 넓이를 출력하는 프로그램을 구현하시오.
+ */
+
+public class OverloadingEx03 {
+
+	public int area(int w, int h) {
+		return w * h;
+	}
+	
+	public double area(int r) {
+		return r * r * 3.141592;
+	}
+	
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

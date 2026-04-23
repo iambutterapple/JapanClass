@@ -1,0 +1,31 @@
+package com.atm;
+
+import java.io.*;
+import java.nio.Buffer;
+public class Bank {
+
+	public static void main(String[] args) {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
+		Account na = new Account("계정");
+		
+		String strWork;
+		
+		do {
+			System.out.println("\n\n어떤 업무를 보시겠습니까?");
+			System.out.println("=====================================");
+			System.out.println(" 입			금	  ==================1");
+			System.out.println(" 출			금	  ==================2");
+			System.out.println(" 잔  액  조 회	  ==================3");
+			System.out.println(" 종			료	  ==================0");
+			System.out.println("=====================================");
+			System.out.print("업 무 선 택 ;");
+			strWork = br.readLine();
+			
+			int n =0;
+			if(strWork != null)
+				n = Integer.parseInt(strWork);
+			
+		} while (condition);
+	}
+}

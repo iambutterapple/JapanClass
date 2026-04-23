@@ -1,0 +1,22 @@
+package com.classexam;
+
+/*
+ * 	반지름을 입력받아 원의 넓이와 둘레를 구하는 프로그램을 구현하시오.
+ * 	필드: 반지름
+ * 메소드: 입력
+ */
+
+class Circle {
+	// 필드 선언
+	int r;
+	double PI = 3.141592;
+}
+
+public class Exam02 {
+
+	public static void main(String[] args) {
+		
+		
+	}
+
+}
