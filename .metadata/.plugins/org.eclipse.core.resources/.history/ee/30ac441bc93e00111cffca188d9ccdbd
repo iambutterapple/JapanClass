@@ -1,0 +1,77 @@
+import javax.crypto.Cipher;
+import javax.crypto.KeyGenerator;
+import javax.crypto.SecretKey;
+import javax.crypto.spec.GCMParameterSpec;
+import java.util.Base64;
+import java.security.SecureRandom;
+
+public class encrypt {
+	// AES 알고리즘(가장 대중적인 암호화 방식)을 사용하는 '열쇠 생성기'를 준비합니다.
+    private static final String ALGORITHM = "AES/GCM/NoPadding";
+    private static final int TAG_LENGTH_BIT = 128; // 인증 태그 길이
+    private static final int IV_LENGTH_BYTE = 12;  // GCM 권장 IV 길이
+    //GCM(Galois/Counter Mode) 암호화 방식에서 권장되는 IV(Initialization Vector, 초기화 벡터) 길이는 96비트(12바이트)
+
+    // 1. 비밀키 생성 (256비트)
+    public static SecretKey generateKey() throws Exception {
+        KeyGenerator keyGenerator = KeyGenerator.getInstance("AES");
+        keyGenerator.init(256);
+        //숫자가 256개나 조합된 세상에 하나뿐인 복잡한 암호화입니다.
+        return keyGenerator.generateKey();
+        // 설정한 대로 암호화를 실제로 깎아서(생성해서) 반환합니다.
+    }
+
+    // 2. 암호화
+    public static String encrypt(String data, SecretKey key) throws Exception {
+    	// 어떤 방식(예: AES/GCM/NoPadding)으로 암호화할지 정해진 도구(Cipher)를 가져옵니다.
+    	Cipher cipher = Cipher.getInstance(ALGORITHM);
+        
+    	// 일회용 번호표(IV)를 저장할 빈 바구니(byte 배열)를 만듭니다.
+        byte[] iv = new byte[IV_LENGTH_BYTE];
+        new SecureRandom().nextBytes(iv);
+        
+        GCMParameterSpec spec = new GCMParameterSpec(TAG_LENGTH_BIT, iv);
+        cipher.init(Cipher.ENCRYPT_MODE, key, spec);
+        
+        byte[] cipherText = cipher.doFinal(data.getBytes());
+        
+        // IV와 암호문을 합쳐서 저장/전송 (복호화 시 IV가 필요하기 때문)
+        byte[] combined = new byte[iv.length + cipherText.length];
+        System.arraycopy(iv, 0, combined, 0, iv.length);
+        System.arraycopy(cipherText, 0, combined, iv.length, cipherText.length);
+        
+        return Base64.getEncoder().encodeToString(combined);
+    }
+
+    // 3. 복호화
+    public static String decrypt(String encryptedData, SecretKey key) throws Exception {
+        byte[] combined = Base64.getDecoder().decode(encryptedData);
+        
+        // IV 추출
+        byte[] iv = new byte[IV_LENGTH_BYTE];
+        System.arraycopy(combined, 0, iv, 0, iv.length);
+        
+        // 암호문 추출
+        byte[] cipherText = new byte[combined.length - IV_LENGTH_BYTE];
+        System.arraycopy(combined, IV_LENGTH_BYTE, cipherText, 0, cipherText.length);
+        
+        Cipher cipher = Cipher.getInstance(ALGORITHM);
+        GCMParameterSpec spec = new GCMParameterSpec(TAG_LENGTH_BIT, iv);
+        cipher.init(Cipher.DECRYPT_MODE, key, spec);
+        
+        byte[] plainText = cipher.doFinal(cipherText);
+        return new String(plainText);
+    }
+
+    public static void main(String[] args) throws Exception {
+        SecretKey key = generateKey();
+        String originalText = "Hello, Java Security!";
+        
+        String encrypted = encrypt(originalText, key);
+        String decrypted = decrypt(encrypted, key);
+        
+        System.out.println("원본: " + originalText);
+        System.out.println("암호화: " + encrypted);
+        System.out.println("복호화: " + decrypted);
+    }
+}
