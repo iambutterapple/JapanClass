@@ -1,0 +1,18 @@
+package com.classex.ex01;
+/*
+ * 문]
+ * 		Grade 클래스를 완성하시오.
+ * 		세과목 점수를 입력받아 Grade 객체를 생성하고 
+ * 		성적과 평균을 출력하는 프로그램을 완성하시오.
+ * 		main()메소드는 다음과 같이 구현한다.
+ * 
+ * 
+ * */
+public class Grade {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

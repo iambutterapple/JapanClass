@@ -1,0 +1,20 @@
+package com.classex.ex01;
+/*
+ * 문]
+ * 		노래 한곡을 나타내는 Song 클래스를 완성하시오.
+ * 
+ * 
+ * 		필드 구성
+ * 			노래의 제목 : title
+ * 			가수 : artist
+ * 			노래가 발표된 년도 : year
+ * 			국적을 나타내는 country
+ * 
+ * 			생성자와 메소드 구성은 아래와 같다.
+ * 				- 생성자 2개
+ * 
+ * 
+ * */
+public class sum {
+
+}

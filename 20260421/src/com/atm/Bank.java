@@ -32,6 +32,8 @@ public class Bank {
 			}
 			
 			switch(n) {
+			case 0:
+					System.out.println("atm을 종료합니다.");
 			case 1:
 				System.out.println("\n==============");
 				System.out.print("입금할 금액 입력: ");
@@ -41,7 +43,11 @@ public class Bank {
 				System.out.println("\n==============");
 				break;
 			case 2:
-				
+				System.out.println("\n==============");
+				System.out.print("출금할 금액 입력 : ");
+				String strwithdrawIn = br.readLine();
+				long withdrawLong = Long.parseLong(strwithdrawIn);
+				na.withdraw(withdrawLong);
 				break;
 			case 3:
 				System.out.println(na.getName() + "님의 현재 계좌의 잔액은 "
