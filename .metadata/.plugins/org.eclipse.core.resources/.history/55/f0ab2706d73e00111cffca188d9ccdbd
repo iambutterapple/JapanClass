@@ -1,0 +1,24 @@
+package com.classex.ex01;
+
+/*
+ *  문]
+ *  		다음 멤버필드를 가지고 있는 직사각형을 표현 Rectangle 클래스 작성
+ *			
+ *		1.	int 타입의 x,y,width,height 값을 매개변수로 받아 필드를
+ *			초기화 하는 생성자 
+ *		2. int 
+ *		
+ * 
+ * 
+ * 
+ * 
+ * */
+
+public class Rectangle {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

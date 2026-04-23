@@ -1,0 +1,21 @@
+package com.classex.ex01;
+/*
+ * 		문]
+ * 			Circle 클래스와 CircleManager 클래스를 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * */
+
+class Circle {
+	
+}
+public class CircleManager {
+
+	public static void main(String[] args) {
+
+	}
+
+}
