@@ -1,0 +1,23 @@
+package com.classex.ex01;
+/*
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * */
+
+
+
+
+class Circle {
+	
+}
+public class CircleManager {
+
+	public static void main(String[] args) {
+
+	}
+
+}

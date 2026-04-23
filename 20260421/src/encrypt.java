@@ -57,7 +57,7 @@ public class encrypt {
         return Base64.getEncoder().encodeToString(combined);
     }
 
- // 3. 복호화
+    // 3. 복호화
     public static String decrypt(String encryptedData, SecretKey key) throws Exception {
         // 텍스트 형태로 받아온 암호문 뭉치를 다시 원래의 바이트 뭉치로 되돌립니다.
         byte[] combined = Base64.getDecoder().decode(encryptedData);
