@@ -1,0 +1,28 @@
+package com.global;
+
+import java.util.*;
+
+public class Concert {
+	Scanner sc = new Scanner(System.in);
+	public Concert(String n) {
+	}
+	//실행
+	public void run() {
+		System.out.println("글로벌 인 콘서트 예약프로그램");
+		while(true)
+		{
+			System.out.print("예약:1, 조회:2, 취소:3, 종료:4 → ");
+			int check = sc.nextInt();
+		}
+	}
+	public void reserver() {
+		
+	}
+	public void search() {
+		
+	}
+	public void cancel() {
+		
+	}
+	
+}

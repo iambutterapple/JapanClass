@@ -1,0 +1,24 @@
+package com.classex.ex01;
+import java.util.*;
+/**/
+public class DicApp {
+
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("한영단어 검색 프로그램");
+		while(true) {
+			System.out.print("한글 :");
+			String kor = sc.next();
+			
+			if(kor.equals("그만"))
+				return;
+			else
+			{
+				
+			}
+			
+		}
+	}
+}

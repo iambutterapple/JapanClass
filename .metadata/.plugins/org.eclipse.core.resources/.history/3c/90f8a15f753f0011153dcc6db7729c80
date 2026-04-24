@@ -1,0 +1,29 @@
+package com.classex.ex01;
+
+/*
+ * 문]
+ * 		이름,전화번호
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * */
+class phone{
+	
+	
+	
+	
+	
+	
+}
+public class PhoneBook {
+
+	
+		public static void main(String[] args) {
+			
+		}
+}

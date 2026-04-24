@@ -1,0 +1,17 @@
+package com.classex.ex01;
+/*
+ * 
+ * 문] 여러개의 클래스를 활용하여
+ * 
+ * 
+ * 
+ * 
+ * */
+public class Calc {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

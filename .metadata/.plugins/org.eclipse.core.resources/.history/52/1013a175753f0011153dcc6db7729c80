@@ -1,0 +1,31 @@
+package com.classex.ex01;
+
+/*
+ * 문]
+ * 		이름,전화번호 필드와 생성자 등을 가진 Phone 클래스를 작성하고,
+ * 		실행 클래스인 PhoneBook 클래스를 
+ * 
+ * 		실행결과
+ * 		인원수
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * */
+class phone{
+	
+	
+	
+	
+	
+	
+}
+public class PhoneBook {
+
+	
+		public static void main(String[] args) {
+			
+		}
+}
