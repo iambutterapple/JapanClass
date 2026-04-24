@@ -1,0 +1,11 @@
+package com.global;
+//s석 a석 b석 10자리
+public class Seat {
+
+	private int S[];
+	private int A[];
+	private int B[];
+public Seat() {
+	// TODO Auto-generated constructor stub
+}
+}

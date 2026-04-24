@@ -1,0 +1,22 @@
+package com.global;
+
+import java.util.*;
+
+public class Concert {
+
+	
+	//실행
+	public void run() {
+		System.out.print("글로벌 인 콘서트 예약프로그램");
+	}
+	public void reserver() {
+		
+	}
+	public void search() {
+		
+	}
+	public void cancel() {
+		
+	}
+	
+}

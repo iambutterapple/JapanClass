@@ -1,0 +1,14 @@
+package com.global;
+
+import java.util.*;
+
+public class Concert {
+
+	public void reserver() {
+		
+	}
+	public void search() {
+		
+	}
+	
+}

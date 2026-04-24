@@ -1,0 +1,17 @@
+package com.global;
+
+import java.util.*;
+
+public class Concert {
+
+	run();//시작
+	
+	book();//예약
+	
+	select();//조회
+	
+	cancel();//취소
+	
+	exit();//종료
+	
+}

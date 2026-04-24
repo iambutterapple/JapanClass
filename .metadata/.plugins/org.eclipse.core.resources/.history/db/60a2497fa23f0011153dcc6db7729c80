@@ -1,0 +1,9 @@
+package com.global;
+//s석 a석 b석 10자리
+public class Seat {
+
+	private int s_seats;
+	private int a_seats;
+	private int b_seats;
+
+}

@@ -1,0 +1,9 @@
+package com.global;
+
+public class ConcertApp {
+
+	public static void main(String[] args) {
+
+		Concert ct = new Concert();
+	}
+}

@@ -1,0 +1,24 @@
+package com.global;
+
+import java.util.*;
+
+public class Concert {
+
+	
+	//실행
+	public void run() {
+		
+	}
+	
+	
+	public void reserver() {
+		
+	}
+	public void search() {
+		
+	}
+	public void cancel() {
+		
+	}
+	
+}
