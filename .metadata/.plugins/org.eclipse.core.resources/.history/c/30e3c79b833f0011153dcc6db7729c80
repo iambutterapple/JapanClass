@@ -1,0 +1,9 @@
+package com.classex.ex01;
+
+public class DicApp {
+
+	public static void main(String[] args) {
+
+	}
+
+}

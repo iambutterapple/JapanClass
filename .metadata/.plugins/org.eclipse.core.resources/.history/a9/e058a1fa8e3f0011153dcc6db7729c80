@@ -1,0 +1,12 @@
+package com.classex.ex01;
+
+public class Add {
+
+	private int a;
+	private int b;
+	
+	public Add() {
+
+	}
+
+}

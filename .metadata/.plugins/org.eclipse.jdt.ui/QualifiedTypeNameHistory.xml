@@ -2,15 +2,24 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="com.switchex.SwitchEx01"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.util.Calendar"/>
     <fullyQualifiedTypeName name="com.classex.Circle"/>
     <fullyQualifiedTypeName name="com.classex.Rectangle"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="com.classex.ReferenceParameter"/>
     <fullyQualifiedTypeName name="com.classex.OverloadingEx01"/>
     <fullyQualifiedTypeName name="com.classex.OverloadingEx02"/>
     <fullyQualifiedTypeName name="com.classex.OverloadingEx03"/>
     <fullyQualifiedTypeName name="com.classex.ThisEx"/>
     <fullyQualifiedTypeName name="com.atm.Account"/>
+    <fullyQualifiedTypeName name="java.lang.Long"/>
+    <fullyQualifiedTypeName name="com.classex.ex01.Grade"/>
+    <fullyQualifiedTypeName name="com.classex.ex01.sum"/>
+    <fullyQualifiedTypeName name="com.classex.ex01.Circle"/>
+    <fullyQualifiedTypeName name="java.lang.Module"/>
+    <fullyQualifiedTypeName name="com.classex.ex01.MonthSchedule"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="java.util.Objects"/>
+    <fullyQualifiedTypeName name="com.classex.ex01.Day"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>

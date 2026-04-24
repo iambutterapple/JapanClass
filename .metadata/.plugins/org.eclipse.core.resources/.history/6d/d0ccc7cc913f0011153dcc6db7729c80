@@ -1,0 +1,27 @@
+package com.classex.ex01;
+
+public class Sub {
+	private int a;
+	private int b;
+
+	
+	public Sub(int a_num,int b_num) {
+		this.a = a_num;
+		this.b = b_num;
+	}
+	public int Calculate() {
+		return this.a - this.b;
+	}
+	
+	private int a_result;
+	private int b_result;
+	public void setValue(int a,int b)
+	{
+		this.a_result = a;
+		this.b_result = b;
+	}
+	
+	public int calculate() {
+		return a+b;
+	}
+}

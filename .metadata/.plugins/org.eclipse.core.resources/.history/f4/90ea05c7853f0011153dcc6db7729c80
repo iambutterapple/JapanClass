@@ -1,0 +1,14 @@
+package com.classex.ex01;
+import java.util.*;
+public class DicApp {
+
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println();
+		while(true) {
+			
+		}
+	}
+}

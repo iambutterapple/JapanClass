@@ -1,0 +1,15 @@
+package com.classex.ex01;
+
+/*
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * */
+//한글과 영어를 저장한 배열
+public class Dictionary {
+
+}

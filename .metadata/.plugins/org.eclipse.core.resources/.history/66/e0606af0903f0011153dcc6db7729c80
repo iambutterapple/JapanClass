@@ -1,0 +1,15 @@
+package com.classex.ex01;
+
+public class Mul {
+	private int a;
+	private int b;
+
+	
+	public Sub(int a_num,int b_num) {
+		this.a = a_num;
+		this.b = b_num;
+	}
+	public int Calculate() {
+		return this.a - this.b;
+	}
+}
