@@ -1,9 +1,0 @@
-package com.classex.ex01;
-import java.util.*;
-public class DicApp {
-
-	
-	public static void main(String[] args) {
-		while(true)
-	}
-}
