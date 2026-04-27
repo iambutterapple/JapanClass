@@ -1,0 +1,127 @@
+package com.polymorphism;
+
+/*
+ * 고객이 제품을 구매(Buy 메소드를 이용하여 Tv,Computer,Audio)하여 
+ * 고객의 잔고와 보너스 점수를 출력하는 프로그램
+ * 
+*/
+class Product{
+
+	public Product() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	int price;//제품 가격
+	int bonusPoint;//제품 구매시 제공하는 보너스 점수
+	
+	public Product(int price) {
+		this.price = price;
+		bonusPoint = (int)(price/10.0);//제품 가격의 10%를 보너스 점수로 드림
+	}
+}
+class Tv extends Product{
+	public Tv() {
+		//부모 클래스의 생성자를 호출
+		super(100);//제품 가격의 100만원
+	}
+	@Override
+	public String toString() {
+		return "Tv";
+	}
+}
+class Computer extends Product{
+	
+	public Computer() {
+		super(200);
+	}
+	@Override
+	public String toString() {
+		return "Computer";
+	}
+}
+
+//제품을 사는 사람(구매자)
+class Buyer{
+	int money = 1000;//고객의 현재 소유 금액
+	
+	int bonusPoint = 0;//보너스 점수(제품의 구매하기 전)
+	Product item[] = new Product[10];//구입한 제품을 저장하기 위한 배열
+	
+	int i = 0;
+	void buy(Product p) {
+	if(money < p.price)
+	{
+		System.out.println("현재 고객님 소유 금액 부족하여 제품을 구매할 수 없습니다.");
+		return;
+	}
+		money -= p.price;//현재 소유한 금액 - 구입한 제품 가격을 뺀다.
+	
+		bonusPoint += p.bonusPoint;//제품의 보너스 점수를 추가한다.
+		item[i++] = p;//제품을 Product 배열 item에 저장한다.
+		System.out.println(p+"을/를 구입하셨습니다.");
+	
+	
+	
+	}
+	//구입한 제품에 대한 정보를 요약해서 보여줄 기능
+	void summary() {
+		int sum = 0;// 총 구매 가격
+		
+		String itemList = "";// 구입한 제품 목록
+		//반복문을 이용해서 구입한 제품을 총 합계와 목록을 만듬
+		for(int i=0;i<item.length;i++) {
+			if(item[i] == null)
+				break;
+			else
+			{
+				sum += item[i].price;
+//				itemList += item[i] + ", ";
+				itemList += (i==0)?""+item[i]:","+item[i];
+			}
+		
+		}
+		System.out.println("구입하신 물품의 총 금액은 "+sum +"만원입니다.");
+		System.out.println("구입하신 물품의 리스트는 "+itemList +"입니다.");
+		
+	}
+	
+	
+	
+	
+	
+//PolyArgumentEx01호출
+//	void buy(Product p) {
+//		if(money < p.price)
+//		{
+//			System.out.println("현재 고객님 소유 금액 부족하여 제품을 구매할 수 없습니다.");
+//			return;
+//		}
+//		money -= p.price;//현재 소유한 금액 - 구입한 제품 가격을 뺀다.
+//		
+//		bonusPoint += p.bonusPoint;//제품의 보너스 점수를 추가한다.
+//		System.out.println(p+"을/를 구입하셨습니다.");
+//		
+//	}
+}
+
+class Audio extends Product {
+	public Audio() {
+		super(50);
+	}
+	
+	@Override
+	public String toString() {
+		return "Audio";
+	}
+}
+public class PolyArgumentEx01 {
+
+	public static void main(String[] args) {
+		Buyer b = new Buyer();
+//		b.buy(new Tv());
+//		b.buy(new Computer());
+		
+		System.out.println("현재 남은 금액은 "+b.money + "만원 입니다.");
+		System.out.println("현재 보너스 점수는 "+b.bonusPoint + "점 입니다.");
+	}
+}
