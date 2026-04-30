@@ -1,6 +1,0 @@
-package com.classex.ex01;
-
-public class Day {
-	
-	private String str;
-}
