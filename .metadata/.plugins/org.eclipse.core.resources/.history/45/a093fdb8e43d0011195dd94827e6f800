@@ -1,9 +1,0 @@
-package com.sungjuk;
-
-/*
- * 	속성만 정의한 클래스
- */
-
-public class Record {
-
-}
