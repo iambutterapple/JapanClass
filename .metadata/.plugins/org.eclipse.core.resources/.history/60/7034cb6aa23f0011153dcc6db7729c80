@@ -1,8 +1,0 @@
-package com.global;
-
-public class Seat {
-
-	private int s_seats;
-	private int s_seats;
-	private int s_seats;
-}
