@@ -55,6 +55,8 @@ public class HashSetEx04 {
 			System.out.println("A B 합집합"+setHab);
 			System.out.println("A B 차집합"+setCha);
 			
+			
+			
 //			교집합: setA.retainAll(setB); (A를 B와의 교집합만 남기고 변경)
 //			차집합: setA.removeAll(setB); (A에서 B에 포함된 것 제거)
 //			합집합: setA.addAll(setB); (A에 B의 모든 요소를 추가, 중복은 자동 제거)
