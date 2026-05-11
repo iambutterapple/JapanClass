@@ -14,6 +14,11 @@ public class ArrayListEx02 {
 //		System.out.println(length);
 		List list = new ArrayList(length/LIMIT + 10);
 		
+		
+		
+		
+		
+		
 		for(int i=0;i<length;i+=LIMIT)
 		{
 			if(i+LIMIT < length)
